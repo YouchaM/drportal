@@ -1,7 +1,8 @@
 {
   "packages": {
     "iron-router": {},
-    "less-bootstrap-3": {},
-    "less-fontawesome-4": {}
+    "less-fontawesome-4": {},
+    "bootstrap3-less": {},
+    "accounts-templates-bootstrap": {}
   }
 }

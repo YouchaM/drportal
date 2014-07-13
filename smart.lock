@@ -3,8 +3,9 @@
   "dependencies": {
     "basePackages": {
       "iron-router": {},
-      "less-bootstrap-3": {},
-      "less-fontawesome-4": {}
+      "less-fontawesome-4": {},
+      "bootstrap3-less": {},
+      "accounts-templates-bootstrap": {}
     },
     "packages": {
       "iron-router": {
@@ -12,20 +13,35 @@
         "tag": "v0.7.1",
         "commit": "d1ffb3f06ea4c112132b030f2eb1a70b81675ecb"
       },
-      "less-bootstrap-3": {
-        "git": "https://github.com/DerMambo/less-bootstrap-3.git",
-        "tag": "v0.0.2",
-        "commit": "b5010b2ff9e9ae6b0e6e13eb0f6c81c9cb84373e"
-      },
       "less-fontawesome-4": {
         "git": "https://github.com/DerMambo/less-fontawesome-4.git",
         "tag": "v0.0.4",
         "commit": "79fdf3d3e90fdb4635878b34f545965014cd4ea8"
       },
+      "bootstrap3-less": {
+        "git": "https://github.com/simison/bootstrap3-less",
+        "tag": "v0.2.1",
+        "commit": "dc94a51ed00d7de6d6f2b6d65107a876d849ad61"
+      },
+      "accounts-templates-bootstrap": {
+        "git": "https://github.com/splendido/accounts-templates-bootstrap.git",
+        "tag": "v0.0.10",
+        "commit": "3e1b8c9cc0675158ed9d382551cecdbdcd1c0380"
+      },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",
         "tag": "v0.2.4",
         "commit": "b40e9b0612329288d75cf52ad14a7da64bb8618f"
+      },
+      "accounts-templates-core": {
+        "git": "https://github.com/splendido/accounts-templates-core.git",
+        "tag": "v0.0.11",
+        "commit": "0e45146a21409c6d1984108664f8809672343194"
+      },
+      "accounts-t9n": {
+        "git": "https://github.com/splendido/meteor-accounts-t9n.git",
+        "branch": "master",
+        "commit": "f81acad9c388513d594ba661aa0a2cc95816485c"
       }
     }
   }

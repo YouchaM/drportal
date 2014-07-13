@@ -6,5 +6,8 @@
 standard-app-packages
 less
 iron-router
-less-bootstrap-3
 less-fontawesome-4
+accounts-password
+accounts-facebook
+bootstrap3-less
+accounts-templates-bootstrap
